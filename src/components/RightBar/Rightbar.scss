@@ -1,0 +1,165 @@
+.rightbar-light{
+    flex:3;
+    position: sticky;
+    top:70px;
+    background-color: rgb(243, 241, 241);
+    height: calc(100vh - 70px);
+    overflow: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    .container{
+        padding: 20px;
+        
+        .item{
+            -webkit-box-shadow: 9px 7px 14px 0px rgba(140,135,140,1);
+            -moz-box-shadow: 9px 7px 14px 0px rgba(140,135,140,1);
+             box-shadow: 9px 7px 14px 0px rgba(140,135,140,1);
+            padding: 20px;
+            background-color: white;
+            margin-bottom: 10px;
+                span{
+                color: gray;
+            }
+        .user{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin:20px 0;
+            .userInfo{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                position: relative;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                .online{
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 0;
+                    left: 30px;
+                    background-color: lightgreen;
+                }
+                p{
+                    color: gray;
+                }
+                span{
+                    font-weight: 500;
+                    color: black;
+                }
+            }
+            .buttons{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                button{
+                    border: none;
+                    padding: 5px;
+                    color: white;
+                    cursor: pointer;
+                    width: 63px;
+                    border-radius: 5px;
+
+                    &:first-child{
+                        background-color: blue;
+                    }
+                    &:last-child{
+                        background-color: red;
+                    }
+                }
+
+                
+            }
+        }
+    }
+    }
+}
+
+.rightbar-dark{
+    flex:3;
+    position: sticky;
+    top:70px;
+    background-color: #333;
+    height: calc(100vh - 70px);
+    overflow: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    .container{
+        padding: 20px;
+        
+        .item{
+            padding: 20px;
+            background-color: #222;
+            margin-bottom: 10px;
+                span{
+                color: lightgray;
+            }
+        .user{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin:20px 0;
+            .userInfo{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                position: relative;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                .online{
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 0;
+                    left: 30px;
+                    background-color: lightgreen;
+                }
+                p{
+                    color: lightgray;
+                }
+                span{
+                    font-weight: 500;
+                    color: whitesmoke;
+                }
+            }
+            .buttons{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                button{
+                    border: none;
+                    padding: 5px;
+                    color: white;
+                    cursor: pointer;
+                    width: 63px;
+                    border-radius: 5px;
+
+                    &:first-child{
+                        background-color: blue;
+                    }
+                    &:last-child{
+                        background-color: red;
+                    }
+                }
+
+                
+            }
+        }
+    }
+    }
+}
+

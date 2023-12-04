@@ -1,0 +1,21 @@
+.home-light{
+    background-color: rgb(243, 241, 241);
+    height: calc(100vh - 70px);
+    position: sticky;
+    top:70px;
+    overflow: scroll;   
+    &::-webkit-scrollbar{
+        display: none;
+    } 
+}
+
+.home-dark{
+    background-color: #333;
+    height: calc(100vh - 70px);
+    position: sticky;
+    top:70px;
+    overflow: scroll;   
+    &::-webkit-scrollbar{
+        display: none;
+    } 
+}

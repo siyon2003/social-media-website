@@ -1,0 +1,138 @@
+.post-light{
+    .container{
+        padding: 20px;
+        -webkit-box-shadow: 9px 7px 14px 0px rgba(140,135,140,1);
+        -moz-box-shadow: 9px 7px 14px 0px rgba(140,135,140,1);
+         box-shadow: 9px 7px 14px 0px rgba(140,135,140,1);
+         border-radius: 20px;
+         margin: 30px;
+        .user{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .userInfo{
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+            }
+            .details{
+                display: flex;
+                flex-direction: column;
+
+                .name{
+                    font-weight: 500;
+                }
+                .date{
+                    font-size: 12px;
+                }
+                
+            }
+
+        }
+
+        .content{
+            margin: 20px 0;
+            p{
+
+            }
+            img{
+                width: 100%;
+                max-height: 500px;
+                margin-top: 25px;
+                object-fit:cover;
+            }
+        }
+
+        .info{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .item{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+            }
+
+        }
+        
+
+
+    }
+}
+
+.post-dark{
+    .container{
+         padding: 20px;
+         border-radius: 20px;
+         background-color: #222;
+         margin:30px ;
+        .user{
+            display: flex;
+            align-items: center;
+            color: whitesmoke;
+            justify-content: space-between;
+            .userInfo{
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+            }
+            .details{
+                display: flex;
+                flex-direction: column;
+
+                .name{
+                    font-weight: 500;
+                }
+                .date{
+                    font-size: 12px;
+                }
+                
+            }
+
+        }
+
+        .content{
+            color: white;
+            margin: 20px 0;
+            p{
+
+            }
+            img{
+                width: 100%;
+                max-height: 500px;
+                margin-top: 25px;
+                object-fit:cover;
+            }
+        }
+
+        .info{
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .item{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+            }
+
+        }
+        
+
+
+    }
+}
